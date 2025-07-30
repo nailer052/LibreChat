@@ -1,0 +1,11 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  env: {
+    NEXTAUTH_SECRET: '2129726b28f62b399781b33be797f7e91c1ab7a28a74a7b',
+    SESSION_SECRET: '63412bcd1683eb843dcc4fb8c6d482ec5fe48cf22b7415',
+    MONGO_URI: 'mongodb://mongo:DWKIxqnNGZuZkfJOxabFIpKvqVEOaKdV@shortline.proxy.rlwy.net:36136',
+  },
+  reactStrictMode: true,
+}
+
+module.exports = nextConfig
